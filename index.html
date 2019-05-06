@@ -7,8 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ECO-MEET</title>
     <link rel="shortcut icon" href="http://amouzoune.eemi.tech/images/ecomeeticon.png" type="image/png">
-    <!--JS-->
-    <script src="./script/index.js"></script>
     <!--CSS-->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -33,16 +31,16 @@
                 </svg></div>
     </section>
 
-    <main class="main">
-        <section class="list-Btn">
-            <div class="btn">
-                à venir
-            </div>
-            <div class="btn current-Btn">
-                en cours
-            </div>
-        </section>
+    <section class="list-Btn">
+        <div id="avenir" class="btn">
+            à venir
+        </div>
+        <div id="encours" class="btn current-Btn">
+            en cours
+        </div>
+    </section>
 
+    <main id="event" class="main">
         <article class="card">
             <h1 class="card-title">Nanterre, Hauts-de-Seine</h1>
             <h3 class="card-txt current-card">Maintenant ! </h3>
@@ -67,6 +65,8 @@
 
 
     <footer class="footerCustom"></footer>
+    <!--JS-->
+    <script src="./script/index.js"></script>
 </body>
 
 </html>
