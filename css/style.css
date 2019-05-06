@@ -1,7 +1,8 @@
 .body{
     background:#1b1b1d;
-    margin: 0;
-    padding: 0%;
+    width: 375px;
+    margin: auto;
+    margin: 1px solid gray;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -235,6 +236,68 @@
 
 
 
+/*=============================================
+=            Actualité                        =
+=============================================*/
+
+.carrousel{
+    width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.carrousel__img{
+    width: 375px;
+    height: 200px;
+}
+
+.article__IMG{
+    width: 175px;
+    height: 125px;
+}
+
+.carrousel__caption{
+    display: flex;
+    width: 375px;
+    height: 50px;
+    background: #FF3838;
+    color: white;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.article__container{
+    width: 375px;
+    height: 125px;
+    background: #FF3838;
+    color: white;
+    display: flex;
+    border: 1px solid #1b1b1d;
+}
+
+.article__caption{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.article__img{
+    width: 175px;
+    height: 125px;
+}
+/*=====  End of Actualité              ======*/
+
+
 
 
 
@@ -255,8 +318,18 @@
     background-image: url('http://amouzoune.eemi.tech/images/basdepage.png');
     background-size: cover;
     height: 50px;
-    width: 100%;
-    margin-top: 50px;
+    width: 375px;
+    position: absolute;
+    top: 94%;
+}
+
+.footerCustom{
+    background-image: url('http://amouzoune.eemi.tech/images/basdepage.png');
+    background-size: cover;
+    height: 50px;
+    width: 375px;
+    position: absolute;
+    top: 105%;
 }
 
 /*=====  End of Footer                 ======*/
